@@ -18,6 +18,7 @@ const JobDetails = () => {
         
     }
     const jobs=useLoaderData();
+    // console.log(jobs)
     const id=useParams();
     const idParse=parseInt(id.jobId);
     console.log(idParse);

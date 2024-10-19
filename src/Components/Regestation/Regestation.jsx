@@ -62,7 +62,7 @@ const Regestation = () => {
                 <span className="absolute inset-y-0 left-0 flex items-center pl-3">
                   <FaEnvelope className="text-gray-400" />
                 </span>
-                <input
+                <inputco
                   type="email"
                   name="email"
                   value={formData.email}

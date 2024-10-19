@@ -18,7 +18,7 @@ const AppliedJobs = () => {
             setFilter(remote);
         }
         else if(remoteJob === "Remote"){
-            const onSite=applied.filter(onsited=> onsited.remote_or_onsite === "Remote");
+            const onSite=applied.filter(onsited=> onsited.remote_or_onsite === "Remote")
             setFilter(onSite);
         }
     }

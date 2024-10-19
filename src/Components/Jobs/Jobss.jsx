@@ -4,6 +4,7 @@ import SJobs from "../SJobs/SJobs";
 
 const Jobss = () => {
     const jobes=useLoaderData();
+    // console.log(jobes)
     return (
         <div className="grid grid-cols-2 gap-5 max-w-7xl mx-auto">
             {

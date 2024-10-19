@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const SJobs = ({job}) => {
     console.log(job);
@@ -34,9 +35,9 @@ const SJobs = ({job}) => {
     
  </div>
  <div className="card-actions">
-     {/* <Link to={`/job/${id}`}> */}
+     <Link to={`/job/${id}`}>
      <button className="bg-cyan-300 p-2 m-1 rounded-lg text-white font-semibold">View Details</button>
-     {/* </Link> */}
+     </Link>
  </div>
 </div>
      </div>
